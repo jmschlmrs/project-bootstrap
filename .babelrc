@@ -1,0 +1,19 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": [
+    "react-hot-loader/babel",
+    [
+      "babel-plugin-root-import",
+      [
+        {
+          "rootPathPrefix": "~",
+          "rootPathSuffix": "src"
+        },
+        {
+          "rootPathPrefix": "$",
+          "rootPathSuffix": "src/client/components/Global"
+        },
+      ]
+    ],
+  ]
+}
