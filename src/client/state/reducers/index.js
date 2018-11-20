@@ -1,14 +1,5 @@
 import { combineReducers } from 'redux';
-
-const initialState = {};
-
-const appReducer = (state = initialState.app, action) => {
-  switch (action.type) {
-    default: {
-      return state;
-    }
-  }
-};
+import appReducer from './app';
 
 export default combineReducers({
   app: appReducer,

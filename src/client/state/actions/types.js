@@ -1,0 +1,5 @@
+const RECEIVED_DATA = 'RECEIVED_DATA';
+
+export {
+  RECEIVED_DATA,
+};

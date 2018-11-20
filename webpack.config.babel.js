@@ -54,9 +54,7 @@ const config = {
 
 const clientConfig = merge({}, config, {
   devtool: isProd ? 'cheap-source-map' : 'cheap-module-eval-source-map',
-  entry: [
-    './src/client/index.js',
-  ],
+  entry: ['./src/client/index.js'],
   output: {
     filename: 'main.js',
     path: path.join(__dirname, '/public'),
